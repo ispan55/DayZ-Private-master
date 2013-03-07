@@ -74,7 +74,7 @@ if ($args{'help'}) {
 	print "\n";
 
 	opendir $dh, "$base_dir/pkg";
-	my @pkgs = readdir $dh;
+	my @pkg = readdir $dh;
 	closedir $dh;
 
 	print "Available options:\n";
